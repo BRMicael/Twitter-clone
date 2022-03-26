@@ -1,9 +1,27 @@
-html,
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .icon {
+    @apply w-[31px] h-[31px] cursor-pointer fill-gray hover:fill-twitter active:fill-twitter
+  }
+}
+
+* {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body, #root {
+  max-width: 100vw;
+  max-height: 100vh;
+
+  width: 100%;
+  height: 100%;
+  color: var(--white);
 }
 
 a {
@@ -11,6 +29,37 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+button, input {
+  border: none;
+  background: none;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+html {
+    background: #000;
+}
+
+
+
+#main {
+  width: min(601px, 100%);
+}
+
+#bottomMenu {
+  padding: 8px min(46px, max(10vw, 10px));
+}
+
+:root {
+  --primary: #000;
+  --secondary: #15181C;
+  --search: #202327;
+  --white: #D9D9D9;
+  --gray: #7A7A7A;
+  --outline: #2F3336;
+  --retweet: #00C06B;
+  --like: #E8265E;
+  --twitter: #33A1F2;
+  --twitter-dark-hover: #011017;
+  --twitter-light-hover: #2C8ED6;
 }
