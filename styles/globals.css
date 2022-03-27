@@ -6,6 +6,10 @@
   .icon {
     @apply w-[31px] h-[31px] cursor-pointer fill-gray hover:fill-twitter active:fill-twitter
   }
+
+  .iconBanner {
+    @apply w-5 h-5 text-gray
+  }
 }
 
 * {
@@ -48,6 +52,27 @@ html {
 
 #bottomMenu {
   padding: 8px min(46px, max(10vw, 10px));
+}
+
+#banner {
+  height: min(33vw, 199px);
+}
+
+#avatar {
+  width: max(45px, min(135px, 22vw));
+  height: max(45px, min(135px, 22vh));
+
+  border: 3.75px solid var(--primary);
+  background: var(--gray);
+  border-radius: 50%;
+
+  position: absolute;
+  bottom: max(-60px, -10vw);
+  left: 15px;
+}
+
+#profile-data {
+  padding: min(calc(10vw + 7px), 67px) 16px 0;
 }
 
 :root {

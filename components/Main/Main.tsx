@@ -5,6 +5,7 @@ import {
   MailIcon,
   SearchIcon,
 } from "@heroicons/react/solid";
+import ProfilePage from "../ProfilePage/ProfilePage";
 
 const Main = () => {
   return (
@@ -23,7 +24,7 @@ const Main = () => {
         </div>
       </header>
 
-      <div id="profile-page"></div>
+      <ProfilePage />
 
       <div
         className="fixed bottom-0 left-0 z-10 bg-primary w-full border-t border-solid border-outline flex justify-between vsm:hidden"
