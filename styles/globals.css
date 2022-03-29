@@ -4,12 +4,14 @@
 
 @layer components {
   .icon {
-    @apply w-[31px] h-[31px] cursor-pointer fill-gray hover:fill-twitter active:fill-twitter
+    @apply h-[18px] w-[18px]
   }
 
   .iconBanner {
     @apply w-5 h-5 text-gray
   }
+
+  
 }
 
 * {
@@ -73,6 +75,10 @@ html {
 
 #profile-data {
   padding: min(calc(10vw + 7px), 67px) 16px 0;
+}
+
+#image {
+  height: min(285px, max(175px, 41vw));
 }
 
 :root {
