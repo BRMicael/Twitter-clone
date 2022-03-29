@@ -19,6 +19,7 @@ module.exports = {
         twitterLightHover: "var(--twitter-light-hover)",
       },
       screens: {
+        'ssm': '340px',
         'vsm': '500px'
       },
     },

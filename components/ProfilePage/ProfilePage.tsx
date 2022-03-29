@@ -1,24 +1,27 @@
 import { CakeIcon, LocationMarkerIcon } from '@heroicons/react/solid'
 import React from 'react'
+import Button from '../Button/Button'
+import { Feed } from '../Feed/Feed'
 
 const ProfilePage = () => {
   return (
     <section className="flex flex-col max-w-full overflow-y-auto" > {/* adicionar o scrollbar-width:none*/}
-        <div>
+        
             <div id="banner" className="relative shrink-0 w-full bg-twitter ">
                 <div id="avatar"></div>
             </div>    
-        </div>
+       
 
         <div id="profile-data" className="flex flex-col relative">
-            {/* <button></button> */} 
+
+            <Button outlined={true} className='absolute top-[2vw] right-[7px] py-1 px-4  text-sm ssm:top-[10px] py-2 px-5' >Editar Perfil</Button>
 
             <h1 className="font-bold text-lg">Micael Souza</h1>
             <h2 className="font-normal text-base text-gray">@mica3l_souza</h2>
 
             <p className="text-base">Developer at <a href="#" className="text-twitter">@Google</a></p>
 
-            <ul className="mt-[10px] mb-[10px]">
+            <ul className="mt-[10px] mb-[10px]" id='info'>
                 <li className="flex text-sm text-gray items-center">
                     <LocationMarkerIcon className="iconBanner mr-[5px] text-gray" />
                     São Paulo, Brasil
@@ -38,6 +41,8 @@ const ProfilePage = () => {
                 </span>
             </div>
         </div>
+
+        <Feed />
     </section>
   )
 }
