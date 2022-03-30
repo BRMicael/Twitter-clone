@@ -15,7 +15,7 @@ const Main = () => {
     >
       <header className="z-10 sticky top-0 bg-primary flex items-center text-left pt-2 pr-0 pb-2 pl-3 border-b border-solid border-outline">
         <button className=" p-2 rounded-[50%] outline-0	cursor-pointer hover:bg-twitterDarkHover ">
-          <ArrowLeftIcon className="w-[31px] h-[31px] cursor-pointer fill-gray hover:fill-twitter active:fill-twitter" />
+          <ArrowLeftIcon className="w-[20px] h-[20px] cursor-pointer fill-gray hover:fill-twitter active:fill-twitter" />
         </button>
 
         <div className="ml-4 flex flex-col">

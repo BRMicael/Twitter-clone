@@ -16,8 +16,8 @@ import Button from "../Button/Button";
 
 const MenuBar = () => {
   return (
-    <section className="hidden vsm:flex flex-col justify-between sticky top-0 left-0 pt-[9px] px-[12px] pb-5 max-h-screen w-[275px] ">
-      {/* aside tag */}
+    <aside className="hidden vsm:flex flex-col justify-between sticky top-0 left-0 pt-[9px] px-[12px] pb-5 max-h-screen xl:w-[275px] ">
+      
       <div className="flex flex-col items-center xl:items-start">
         {/* Logo */}
         <button className="containerIcon">
@@ -66,16 +66,16 @@ const MenuBar = () => {
 
           <div className="flex flex-col items-center justify-start ml-2">
             <span className="hidden xl:inline-block text-[15px]">Casimiro</span>
-            <p className="hidden xl:inline-block text-[15px]">@casimiro</p>
+            <p className="hidden xl:inline-block text-[15px] text-gray">@casimiro</p>
           </div>
 
           <div className="hidden xl:flex grow items-end justify-end">
-            <DotsHorizontalIcon className="h-4 w-4 text-gray" />
+            <DotsHorizontalIcon className="h-5 w-5 text-white" />
           </div>
       </div>
 
 
-    </section>
+    </aside>
   );
 };
 
