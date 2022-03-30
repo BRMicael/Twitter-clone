@@ -14,7 +14,7 @@ const ProfilePage = () => {
 
         <div id="profile-data" className="flex flex-col relative">
 
-            <Button outlined={true} className='absolute top-[2vw] right-[7px] py-1 px-4  text-sm ssm:top-[10px] py-2 px-5' >Editar Perfil</Button>
+            <Button outlined={true} className='absolute top-[2vw] right-[7px] text-sm ssm:top-[10px] py-2 px-5' >Editar Perfil</Button>
 
             <h1 className="font-bold text-lg">Micael Souza</h1>
             <h2 className="font-normal text-base text-gray">@mica3l_souza</h2>

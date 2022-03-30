@@ -13,6 +13,8 @@ export const Feed = () => {
 
         <div className="flex flex-col shrink-0">
             <Tweet />
+            <Tweet />
+            <Tweet />
         </div>
 
     </div>
