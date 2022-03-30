@@ -7,6 +7,11 @@
     @apply h-[18px] w-[18px]
   }
 
+  .FeedMenuItem {
+    @apply flex justify-center items-center grow min-w-[56px] h-[53px]
+    hover:bg-slate-200/10 px-4
+  }
+
   .iconBanner {
     @apply w-5 h-5 text-gray
   }
@@ -16,7 +21,23 @@
   }
 
   .containerIcon {
-    @apply flex items-center
+    @apply flex items-center  p-3 rounded-full cursor-pointer transition duration-100 ease-in hover:bg-slate-200/10
+  }
+  
+  .containerIcon span {
+    @apply hidden xl:inline-block ml-[19px] text-[19px]
+  }
+  
+    .containerIconPerfil {
+      @apply flex items-center p-3 rounded-full cursor-pointer transition duration-100 ease-in hover:bg-slate-200/10
+    }
+
+  .buttonTwettar {
+    @apply  xl:w-full h-auto 
+  }
+
+  .buttonTwettar span {
+    @apply hidden xl:inline
   }
  
 }

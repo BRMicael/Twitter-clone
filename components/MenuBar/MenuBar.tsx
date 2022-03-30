@@ -1,4 +1,8 @@
-import { HashtagIcon, UserIcon } from "@heroicons/react/solid";
+import {
+  DotsHorizontalIcon,
+  HashtagIcon,
+  UserIcon,
+} from "@heroicons/react/solid";
 import {
   HomeIcon,
   MailIcon,
@@ -12,46 +16,64 @@ import Button from "../Button/Button";
 
 const MenuBar = () => {
   return (
-    <section className="hidden vsm:flex flex-col justify-between sticky top-0 left-0 pt-[9px] pr-[19px] pb-5 max-h-screen "> {/* aside tag */}
-
-      <div>
+    <section className="hidden vsm:flex flex-col justify-between sticky top-0 left-0 pt-[9px] px-[12px] pb-5 max-h-screen w-[275px] ">
+      {/* aside tag */}
+      <div className="flex flex-col items-center xl:items-start">
         {/* Logo */}
-        <div className="containerIcon">
-          <HomeIcon className="iconMenuBar" /> 
+        <button className="containerIcon">
+          <HomeIcon className="iconMenuBar" />
           <span>Página Inicial</span>
-        </div>
-        <div className="containerIcon">
+        </button>
+        <button className="containerIcon">
           <HashtagIcon className="iconMenuBar" />
           <span>Explorar</span>
-        </div>
-        <div className="containerIcon">
+        </button>
+        <button className="containerIcon">
           <BellIcon className="iconMenuBar" />
           <span>Notificações</span>
-        </div>
-        <div className="containerIcon">
+        </button>
+        <button className="containerIcon">
           <MailIcon className="iconMenuBar" />
           <span>Mensagens</span>
-        </div>
-        <div className="containerIcon">
+        </button>
+        <button className="containerIcon">
           <BookmarkIcon className="iconMenuBar" />
           <span>Itens salvos</span>
-        </div>
-        <div className="containerIcon">
+        </button>
+        <button className="containerIcon">
           <CollectionIcon className="iconMenuBar" />
           <span>Listas</span>
-        </div>
-        <div className="containerIcon font-bold	">
+        </button>
+        <button className="containerIcon">
           <UserIcon className="iconMenuBar" />
           <span>Perfil</span>
-        </div>
-        <div className="containerIcon">
+        </button>
+        <button className="containerIcon">
           <DotsCircleHorizontalIcon className="iconMenuBar" />
           <span>Mais</span>
-        </div>
+        </button>
 
+
+          <Button radius="rounded-[25px]" outlined={false} children="Tweetar" className="buttonTwettar" />
+     
       </div>
 
-        <Button outlined={false} children="Tweetar" />
+
+      <div className="containerIconPerfil items-center justify-center xl:justify-start">
+
+        
+          <div className="w-10 h-10 rounded-[50%] shrink-0 bg-gray "></div>
+
+          <div className="flex flex-col items-center justify-start ml-2">
+            <span className="hidden xl:inline-block text-[15px]">Casimiro</span>
+            <p className="hidden xl:inline-block text-[15px]">@casimiro</p>
+          </div>
+
+          <div className="hidden xl:flex grow items-end justify-end">
+            <DotsHorizontalIcon className="h-4 w-4 text-gray" />
+          </div>
+      </div>
+
 
     </section>
   );

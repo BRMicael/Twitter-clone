@@ -28,7 +28,9 @@ const Tweet = () => {
               <div className="w-[2px] h-[2px] rounded-[50%] mx-[8px] bg-gray"></div>
               <time className="text-gray truncate"> 27 de jun</time>
             </div>
-            <DotsHorizontalIcon className="h-4 w-4 text-gray" />
+            <Icon color="hover:text-twitter" bg="group-hover:bg-cyan-400/10">
+              <DotsHorizontalIcon className="icon" />
+            </Icon>
           </div>
           <p className="font-sm mt-1">Simplesmente o maior do Entretenimento</p>
 

@@ -14,7 +14,7 @@ const ProfilePage = () => {
 
         <div id="profile-data" className="flex flex-col relative">
 
-            <Button outlined={true} className='absolute top-[2vw] right-[7px] text-sm ssm:top-[10px] py-2 px-5' >Editar Perfil</Button>
+            <Button radius='rounded-[25px]' outlined={true} className='absolute top-[2vw] right-[7px] text-sm ssm:top-[10px] py-2 px-5' >Editar Perfil</Button>
 
             <h1 className="font-bold text-lg">Micael Souza</h1>
             <h2 className="font-normal text-base text-gray">@mica3l_souza</h2>
@@ -33,11 +33,11 @@ const ProfilePage = () => {
             </ul>
 
             <div id="followage" className="flex">
-                <span className="text-sm text-gray">
-                    seguindo <strong>104</strong>
+                <span className="text-sm text-gray no-underline decoration-white hover:underline">
+                <strong className="text-white">104</strong> Seguindo 
                 </span>
-                <span className="text-sm text-gray ml-5">
-                    <strong>672 </strong> seguidores
+                <span className="text-sm text-gray ml-5 no-underline decoration-white hover:underline">
+                    <strong className="text-white">672 </strong> Seguidores
                 </span>
             </div>
         </div>
