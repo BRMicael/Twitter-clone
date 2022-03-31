@@ -11,9 +11,9 @@ export const Feed = () => {
         </ul>
 
         <div className="flex flex-col shrink-0">
-            <Tweet />
-            <Tweet />
-            <Tweet />
+            <Tweet nickname="caze" name="@Casimiro" date="23 de Jun" content="Simplesmente o maior do Entretenimento" />
+            <Tweet nickname="Rocketseat" name="@Rocketseat" date="2 de Jun" content="Foguete não tem ré" />
+            <Tweet nickname="Teste" name="@teste" date="23 de Jun" content="Teste" />
         </div>
 
     </div>

@@ -20,7 +20,7 @@ const ProfilePage = () => {
             <h1 className="font-bold text-lg">Micael Souza</h1>
             <h2 className="font-normal text-base text-gray">@mica3l_souza</h2>
 
-            <p className="text-base">Developer at <a href="#" className="text-twitter">@Google</a></p>
+            <p className="text-base">Procurando um emprego como desenvolvedor</p>
 
             <ul className="mt-[10px] mb-[10px]" id='info'>
                 <li className="flex text-sm text-gray items-center">

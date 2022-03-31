@@ -65,8 +65,8 @@ const MenuBar = () => {
           <div className="w-10 h-10 rounded-[50%] shrink-0 bg-gray "></div>
 
           <div className="flex flex-col items-center justify-start ml-2">
-            <span className="hidden xl:inline-block text-[15px]">Casimiro</span>
-            <p className="hidden xl:inline-block text-[15px] text-gray">@casimiro</p>
+            <span className="hidden xl:inline-block text-[15px]">Micael Souza</span>
+            <p className="hidden xl:inline-block text-[15px] text-gray">@mica3l_souza</p>
           </div>
 
           <div className="hidden xl:flex grow items-end justify-end">

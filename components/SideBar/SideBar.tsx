@@ -58,11 +58,14 @@ export default function Sidebar() {
            <SearchIcon id="iconSearch" className="w-8 h-8 relative top-[-35px] pl-3 text-gray" /> 
         </div>
 
+        <StickyBox>
         <section className="flex flex-col pt-[57px] pb-[200px]">
 
             <BoxList title="Talvez você curta" users={users} />
             <BoxInfo title="Oque está acontecendo" info={info} />
         </section>
+        
+        </StickyBox>
     </aside>
   )
 }
