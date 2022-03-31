@@ -13,14 +13,14 @@ const Main = () => {
       className="flex flex-col vsm:border-x border-solid border-outline "
       id="main"
     >
-      <header className="z-10 sticky top-0 bg-primary flex items-center text-left pt-2 pr-0 pb-2 pl-3 border-b border-solid border-outline">
+      <header className="z-10 h-[53px] sticky top-0 bg-primary flex items-center text-left pt-2 pr-0 pb-2 pl-3 border-b border-solid border-outline">
         <button className=" p-2 rounded-[50%] outline-0	cursor-pointer hover:bg-twitterDarkHover ">
           <ArrowLeftIcon className="w-[20px] h-[20px] cursor-pointer fill-gray hover:fill-twitter active:fill-twitter" />
         </button>
 
         <div className="ml-4 flex flex-col">
           <strong className="text-xl">Micael Souza</strong>
-          <span className="text-base text-gray">69 Tweets</span>
+          <span className="text-xs leading-3 text-gray">69 Tweets</span>
         </div>
       </header>
 

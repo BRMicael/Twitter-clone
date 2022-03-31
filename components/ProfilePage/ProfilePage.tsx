@@ -1,3 +1,4 @@
+import { CalendarIcon } from '@heroicons/react/outline'
 import { CakeIcon, LocationMarkerIcon } from '@heroicons/react/solid'
 import React from 'react'
 import Button from '../Button/Button'
@@ -27,8 +28,8 @@ const ProfilePage = () => {
                     São Paulo, Brasil
                 </li>
                 <li className="flex text-sm text-gray items-center">
-                    <CakeIcon className="iconBanner mr-[5px] text-gray" />
-                    Nascido em 22 de agosto de 2003
+                    <CalendarIcon className="iconBanner mr-[5px] text-gray" />
+                    Ingressou em agosto de 2019
                 </li>
             </ul>
 

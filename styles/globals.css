@@ -39,6 +39,24 @@
   .buttonTwettar span {
     @apply hidden xl:inline
   }
+
+  .containerList {
+    @apply flex py-[10px] px-4 bg-secondary cursor-pointer
+  }
+
+  .containerList h2 {
+    @apply text-white
+  }
+
+  .containerList + div  {
+    @apply hover:bg-[#333639] transition duration-100 ease-in
+  }
+  .containerList:first-child {
+    @apply pt-[13px] rounded-t-[14px]
+  }
+  .containerList:last-child {
+    @apply pb-[17px] rounded-b-[14px]
+  }
  
 }
 
@@ -107,6 +125,10 @@ html {
 
 #image {
   height: min(285px, max(175px, 41vw));
+}
+
+#search::focus ~ #iconSearch {
+  color: var(--twitter);
 }
 
 :root {
