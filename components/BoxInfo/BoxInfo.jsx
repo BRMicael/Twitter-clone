@@ -3,6 +3,7 @@ import Icon from "../Icon/Icon"
 
 const Boxinfo = ({title, info}) => {
   return (
+    <>
     <section className="flex flex-col bg-secondary rounded-[50%] mb-2">
     <div className="containerList">
       <span className="text-white font-bold text-[20px]">{title}</span>
@@ -36,7 +37,10 @@ const Boxinfo = ({title, info}) => {
     <div className="containerList">
       <p className="text-twitter text-sm">Mostrar mais</p>
     </div>
+    
   </section>
+  <p className="text-sm text-gray">Direitos de imagem ao Twitter</p>
+  </>
   )
 }
 

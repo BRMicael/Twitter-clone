@@ -54,7 +54,7 @@ const MenuBar = () => {
         </button>
 
 
-          <Button radius="rounded-[25px]" outlined={false} children="Tweetar" className="buttonTwettar" />
+          <Button radius="rounded-[25px]" outlined={false} className="buttonTwettar">Tweetar</Button>
      
       </div>
 

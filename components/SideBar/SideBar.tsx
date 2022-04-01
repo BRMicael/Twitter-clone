@@ -16,7 +16,7 @@ export default function Sidebar() {
       nickname: '@pedro',
     },
     {
-      name: 'Casimiro',
+      name: 'caze',
       nickname: '@casimiro'
     }
   ]

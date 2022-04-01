@@ -31,8 +31,8 @@ const Tweet: React.FC<Props> = ({ nickname, name, date, content }) => {
         <div className="flex flex-col w-full mt-[2px] pl-[59px]">
           <div className="flex justify-between items-center">
             <div className="flex items-center text-[15px]">
-              <strong className="mr-[5px] leading-4	truncate">{name}</strong>
-              <span className="text-gray leading-4 truncate">{nickname}</span>
+              <span className="mr-[5px] leading-4	truncate">{nickname}</span>
+              <strong className="text-gray leading-4 truncate">{name}</strong>
               <div className="w-[2px] leading-4 h-[2px] rounded-[50%] mx-[8px] bg-gray"></div>
               <time className="text-gray truncate"> {date}</time>
             </div>

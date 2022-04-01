@@ -9,7 +9,11 @@
 
   .FeedMenuItem {
     @apply flex justify-center items-center grow min-w-[56px] h-[53px]
-    hover:bg-slate-200/10 px-4
+    hover:bg-slate-200/10 px-4 
+  }
+
+  .FeedMenuItem span {
+    @apply flex items-center h-full border-b-4 border-transparent
   }
 
   .iconBanner {

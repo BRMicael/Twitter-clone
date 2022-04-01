@@ -20,7 +20,7 @@ const Main = () => {
 
         <div className="ml-4 flex flex-col">
           <strong className="text-xl">Micael Souza</strong>
-          <span className="text-xs leading-3 text-gray">69 Tweets</span>
+          <span className="text-xs leading-3 text-gray">3 Tweets</span>
         </div>
       </header>
 
