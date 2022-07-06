@@ -14,7 +14,7 @@
 • ReactJS e Tailwind Css <br>
 
 <h2> O que eu aprendi durante esse projeto </h2>
-  Durante esse projeto eu absorvi meus conhecimentos utlizando JavaScript, ReactJs e Tailwind Css.
+  Durante esse projeto eu absorvi novos conhecimentos em JavaScript, ReactJs e Tailwind Css.
   Além disso, aperfeiçoei meu conhecimento em resposividade de websites.
 
 
