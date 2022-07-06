@@ -3,10 +3,10 @@
 
 <p>Aplicação que replica a interface visual do Twitter, com algumas mudanças que eu achei interessante adicionar, totalmente responsivo 😃.</p> <br>
 
-![Tamanho para computadores](https://github.com/BRMicael/Twitter-clone/blob/main/screenshots/largepage.png)
-![Tamanho médio](https://github.com/BRMicael/Twitter-clone/blob/main/screenshots/mediumpage.png)
-![Tamahno para tablets](https://github.com/BRMicael/Twitter-clone/blob/main/screenshots/tabletpage.png)
-![Tamahno para dispositivos mobiles](https://github.com/BRMicael/Twitter-clone/blob/main/screenshots/mobilepage.png)
+![Tamanho para computadores](https://github.com/BRMicael/Twitter-clone/blob/main/screenshots/largepage.png)<br>
+![Tamanho médio](https://github.com/BRMicael/Twitter-clone/blob/main/screenshots/mediumpage.png)<br>
+![Tamahno para tablets](https://github.com/BRMicael/Twitter-clone/blob/main/screenshots/tabletpage.png)<br>
+![Tamahno para dispositivos mobiles](https://github.com/BRMicael/Twitter-clone/blob/main/screenshots/mobilepage.png)<br>
 
 
 <h2>Tecnologias usadas:</h2>
