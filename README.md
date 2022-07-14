@@ -2,6 +2,7 @@
 <h1>Clone do Twitter</h1>
 
 <p>Aplicação que replica a interface visual do Twitter, com algumas mudanças que eu achei interessante adicionar, totalmente responsivo 😃.</p> <br>
+<p>Para acessar essa aplicação online: https://twitterclonebymicael.vercel.app/</p> <br>
 
 ![Tamanho para computadores](https://github.com/BRMicael/Twitter-clone/blob/main/screenshots/largepage.png)<br>
 ![Tamanho médio](https://github.com/BRMicael/Twitter-clone/blob/main/screenshots/mediumpage.png)<br>
@@ -22,7 +23,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 
-<h2> Para iniciar essa aplicação: </h2>
+<h2> Para iniciar essa aplicação em sua máquina: </h2>
 
 ```bash
 npm run dev
